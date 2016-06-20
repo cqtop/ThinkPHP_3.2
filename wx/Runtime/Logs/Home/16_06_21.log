@@ -1,0 +1,233 @@
+[ 2016-06-21T00:15:20+08:00 ] ::1 /tp3.2/home/wx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+NOTIC: [8] Undefined index: timestamp C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nonce C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 10 行.
+NOTIC: [8] Undefined index: signature C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 12 行.
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2016-06-21T00:19:05+08:00 ] 127.0.0.1 /tp3.2/home/wx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: timestamp C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 9 行.
+NOTIC: [8] Undefined index: nonce C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 10 行.
+NOTIC: [8] Undefined index: signature C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 12 行.
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-06-21T00:21:23+08:00 ] 127.0.0.1 /tp3.2/home/wx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-06-21T00:22:00+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=f91b70c3ace61535d403a0da09d6c71d2e5b3c87&echostr=3141701624245468671&timestamp=1466439871&nonce=59097754
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002477s ]
+
+[ 2016-06-21T00:22:53+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=7063c086877d3ff7287287bc0372a9cb024615c6&echostr=1241963677142113270&timestamp=1466439926&nonce=1223345427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-06-21T00:24:16+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=0970df981d16f3b55c7a9d4e0977182c45daf102&timestamp=1466440009&nonce=1998570056&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=f92c37be89ba079a0092917a48d4dcd6653db313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2016-06-21T00:24:57+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=916ba298dd89cf756f0d7b0c845b145793c622a9&timestamp=1466440050&nonce=1570320045&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=63036f4884b285d23a4699b837158fb3aca7e9a0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2016-06-21T00:32:07+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=c8aaf6b78630922880bd1ad8fb16eb99b6e97448&timestamp=1466440480&nonce=2142927230&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=d497642298db0a27157177fd92ba6ae24f00682f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-06-21T00:39:01+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=5520c6ffaae3868bbdd1dff9744fe234962307e6&timestamp=1466440894&nonce=1627313474&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=ac97dbd21724a750e5d0888e638d884b27f38c3c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-06-21T00:39:27+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=5f717ef705d5c400a76633cb286b692e811b7294&timestamp=1466440920&nonce=134686404&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=3c8e94e3af10ec7cd2a81b1bcc44d74115203d68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2016-06-21T00:41:59+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=b7cba16a19e73494cb270b93e27ecfdfd90243a2&timestamp=1466441072&nonce=1605591153&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=1885c54644edec5cc85811546e4d5fbf46717f83
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-06-21T00:42:21+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=2d7ada0f64281e26c28b3c3937bdc18c812b7bfa&timestamp=1466441094&nonce=1424615985&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=4265ec8c02c20669b47cfb099c8ac433d5ecea06
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2016-06-21T00:46:14+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=68b2e9a1048abd5e3e8309e7d4be388ac84e4987&timestamp=1466441327&nonce=1061016280&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=830e7ff5fcdf60e830671d45ea9634572f3beee3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-06-21T00:46:35+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=0dad532359028bfb798d543ca35a35c221d2a546&timestamp=1466441348&nonce=335014267&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=738f3096971ae21fb2d100d3a11673af5b14bcdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2016-06-21T00:57:55+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=0dad532359028bfb798d543ca35a35c221d2a546&timestamp=1466441348&nonce=335014267&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=738f3096971ae21fb2d100d3a11673af5b14bcdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001340s ]
+
+[ 2016-06-21T01:02:11+08:00 ] ::1 /tp3.2/home/wx/responseMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2016-06-21T01:02:15+08:00 ] ::1 /tp3.2/home/wx/responseMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2016-06-21T01:06:55+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=f78424e402ea88b520a56dc9bd676daf0d231e0f&timestamp=1466442568&nonce=1644580737&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=f5c537624a7fa54e08f2c38ee738383f15026192
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-06-21T01:07:08+08:00 ] 127.0.0.1 /tp3.2/home/wx?signature=e455b5738e73534ba9ca888cb4c1d82395e8aa3e&timestamp=1466442581&nonce=251105402&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=489f30045f8eebdbb48a3d9f31075f017c3e3d0f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8] Undefined index: echostr C:\wamp\www\tp3.2\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
