@@ -565,3 +565,99 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
 
+[ 2016-06-21T10:27:06+08:00 ] 127.0.0.1 /weixin/home/wx?signature=7eab1a12442a4208b9618bee857ac4f2c9389ff7&timestamp=1466476037&nonce=1759622131&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=29dfa1d57e39117f022ee55591be1693d3c2b178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-06-21T10:27:12+08:00 ] 127.0.0.1 /weixin/home/wx?signature=31d2db0321d04d898d488d6ecac496411d2e7ef5&timestamp=1466476043&nonce=719612042&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=4262c0c12b71970804ee5595241a237495e26f27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-06-21T10:48:59+08:00 ] 127.0.0.1 /weixin/home/wx?signature=43a2d39130428540a9f9f18bd60fd7c2f4d04e23&timestamp=1466477349&nonce=700603520&openid=o52f5wX2b5Dk-mzDvAp0c_UFZi-M&encrypt_type=aes&msg_signature=1b663b4fdfca6d96e501cda3a49a2239d4725e43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-06-21T16:04:10+08:00 ] 127.0.0.1 /weixin/home/wx?signature=bf41e16bea2498b1e37ef4fc1a935c0fa4b6a399&timestamp=1466496261&nonce=469607643&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=ccafc0418cb1437a0a43b0958e20fa08a31bc2b2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-06-21T16:04:29+08:00 ] 127.0.0.1 /weixin/home/wx?signature=e6eb476c180a7e6ff4b93eb8a28edc189f91b3c5&timestamp=1466496280&nonce=857832266&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=fe2bf33526959b4c7be4072ec661992309a93d8e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-06-21T16:05:05+08:00 ] 127.0.0.1 /weixin/home/wx?signature=37fa46aee67c39e93a5e80a10cab6abba1f24063&timestamp=1466496316&nonce=201203865&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=5c9ccec81927786068976383f359d36d41d9f87c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-06-21T16:21:24+08:00 ] 127.0.0.1 /weixin/home/wx?signature=8db11b03e21ec2603c80ff4d2d04abce1f375849&timestamp=1466497295&nonce=950442044&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=4641f42046789c643b94621652bf5284a0145f3d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-21T16:35:50+08:00 ] 127.0.0.1 /weixin/home/wx?signature=c5a1a699234a88c0c2363039b41b2bcd23f6bc6a&timestamp=1466498160&nonce=1738870857&openid=o52f5wcbSUIoAAVNM06BiPjxJ1ug&encrypt_type=aes&msg_signature=025e870293866bc91c97e7463c1ad1e87e877861
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: echostr D:\wamp\www\weixin\wx\Home\Controller\WxController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+

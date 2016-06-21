@@ -50,9 +50,53 @@ class WxController extends Controller {
                 $info = sprintf($template,$toUser,$fromUser,$time,$msgType,$content);
                 echo $info;
             }
+        }elseif(strtolower($postObj->MsgType == 'text')){
+            $str = trim($postObj->Content);//去除用户发来信息的前后空格
+            if($str == "你是谁"){
+                $fromUsername = $postObj->FromUserName;
+                $toUsername = $postObj->ToUserName;
+                $time = time();
+                $msgType = "text";
+                $contentStr = "我是帅气的彬哥哥！！！";
+                $textTpl = "<xml>
+                        <ToUserName><![CDATA[%s]]></ToUserName>
+                        <FromUserName><![CDATA[%s]]></FromUserName>
+                        <CreateTime>%s</CreateTime>
+                        <MsgType><![CDATA[%s]]></MsgType>
+                        <Content><![CDATA[%s]]></Content>
+                        <FuncFlag>0</FuncFlag>
+                    </xml>";
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                echo $resultStr;
+
+            }elseif($str == "你在哪"){
+                $fromUsername = $postObj->FromUserName;
+                $toUsername = $postObj->ToUserName;
+                $time = time();
+                $msgType = "text";
+                $contentStr = "我在重庆市南岸区！";
+                $textTpl = "<xml>
+                        <ToUserName><![CDATA[%s]]></ToUserName>
+                        <FromUserName><![CDATA[%s]]></FromUserName>
+                        <CreateTime>%s</CreateTime>
+                        <MsgType><![CDATA[%s]]></MsgType>
+                        <Content><![CDATA[%s]]></Content>
+                        <FuncFlag>0</FuncFlag>
+                    </xml>";
+                $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                echo $resultStr;
+
+            }
+
+
+
         }
 
 
+
+    }
+
+    public function send($str){
 
     }
 }
