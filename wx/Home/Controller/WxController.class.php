@@ -39,13 +39,13 @@ class WxController extends Controller {
                 $fromUser = $postObj->ToUserName;
                 $time = time();
                 $msgType = "text";
-                $content = "欢迎订阅boyyb的微信公众号！";
+                $content = "欢迎订阅boyyb的微信公众号！我将为你提供优质的服务。";
                 $template = "<xml>
-                            <ToUserName><![CDATA[s%]]></ToUserName>
-                            <FromUserName><![CDATA[s%]]></FromUserName>
-                            <CreateTime>s%</CreateTime>
-                            <MsgType><![CDATA[s%]]></MsgType>
-                            <Content><![CDATA[s%]]></Content>
+                            <ToUserName><![CDATA[%s]]></ToUserName>
+                            <FromUserName><![CDATA[%s]]></FromUserName>
+                            <CreateTime>%s</CreateTime>
+                            <MsgType><![CDATA[%s]]></MsgType>
+                            <Content><![CDATA[%s]]></Content>
                             </xml>";
                 $info = sprintf($template,$toUser,$fromUser,$time,$msgType,$content);
                 echo $info;
