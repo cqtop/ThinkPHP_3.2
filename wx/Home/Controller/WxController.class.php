@@ -53,9 +53,9 @@ class WxController extends Controller {
                 if($city == "天气"){$city = "重庆";}
                 $citycode = urlencode(iconv('utf-8', 'gb2312', $city));
                 $url = "http://php.weather.sina.com.cn/xml.php?city=$citycode&password=DJOYnieT8234jlsK&day=0";
-                $weatherXml = file_get_contents($url);
-                $obj = simplexml_load_string($weatherXml, 'SimpleXMLElement', LIBXML_NOCDATA);
-                $weather = json_decode(json_encode($obj),TRUE);
+                $weatherXml = file_get_contents($url);//获取的是xml数据
+                $obj = simplexml_load_string($weatherXml, 'SimpleXMLElement', LIBXML_NOCDATA);//转为对象
+                $weather = json_decode(json_encode($obj),TRUE);//转为数组
                 if($weather['Weather']){
                     $contentStr = $weather['Weather']['city']."天气情况:\n";
                     $contentStr .= $weather['Weather']['status1']."\n";
