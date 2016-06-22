@@ -107,6 +107,7 @@ class WxController extends Controller {
         echo $resultStr;
     }
 
+    //发送图文消息
     public function sendNews(){
         $fromUsername = $this->postObj->FromUserName;
         $toUsername = $this->postObj->ToUserName;
@@ -122,6 +123,7 @@ class WxController extends Controller {
                 <MsgType><![CDATA[news]]></MsgType>
                 <ArticleCount>3</ArticleCount>
                 <Articles>";
+        //多个item就是多图文，一个item就是单图文，注意上面的articlecount
         $newsTplBody = "<item>
                 <Title><![CDATA[$title]]></Title>
                 <Description><![CDATA[$description]]></Description>
@@ -148,35 +150,55 @@ class WxController extends Controller {
         echo $str;
     }
 
-    //抓取页面
-    public function http_curl(){
+    /*
+     * $url 接口url
+     * $type 请求方法
+     * $res 返回数据类型
+     * $arr post请求参数
+     */
+    public function http_curl($url,$type='get',$res='json',$arr){
+        //初始化curl
         $ch = curl_init();
         // 设置URL和相应的选项
-        curl_setopt($ch, CURLOPT_URL, "http://www.youku.com/");
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);//
-        // 抓取URL并把它传递给浏览器
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+        if($type == "post"){
+            curl_setopt ($ch, CURLOPT_POST, 1);
+            curl_setopt ($ch, CURLOPT_POSTFIELDS, $arr);
+        }
+        //跳过SSL证书检查,否则结果为null
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+        //采集数据，返回json格式数据
         $data = curl_exec($ch);
-        echo $data;
         //关闭cURL资源，并且释放系统资源
         curl_close($ch);
+        if($res == 'json'){
+            if(curl_errno($ch)){
+                return curl_error($ch);
+            }else{
+                return json_decode($data,true);//json转为数组并返回,不加true转为对象
+            }
+        }
     }
     //access_token是公众号的全局唯一接口调用凭据，公众号调用各接口时都需使用access_token
     public function getAccessToken(){
-        $appid = "wx72deeb26411bd991";
-        $appsecret = "44573d9d684cb0570c9bb46a39ffe28d";
-        $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$appid}&secret={$appsecret}";
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-        //跳过SSL证书检查,否则结果为null
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        $data = curl_exec($ch);
-        curl_close($ch);
-        if(curl_errno($ch)){
-            var_dump(curl_error($ch));
+        if($_SESSION['accessToken'] && $_SESSION['expireTime']>time()){ //accesstoken没过期直接调用
+            return $_SESSION['accessToken'];
+        }else{ //accesstoken过期后或不存在，则重新生成
+            //开发者号
+            //$appid = "wx72deeb26411bd991";
+            //$appsecret = "44573d9d684cb0570c9bb46a39ffe28d";
+            //测试号,用于自定义菜单
+            $appid = 'wxda2fb7a546a427bb';
+            $appsecret = 'b1e4c71c5370487b74527e11d40819f2';
+            $url = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid={$appid}&secret={$appsecret}";
+            $res = $this -> http_curl($url,'get','json');
+            $accessToken = $res['access_token'];
+            //将accesstoken存到session
+            $_SESSION['accessToken'] = $accessToken;
+            $_SESSION['expireTime'] = time()+7200;
+            return $accessToken;
         }
-        $arr = json_decode($data,true);
-        var_dump($arr);
     }
 
     //获取微信服务器ip用于检测，杜绝假冒ip
@@ -194,6 +216,53 @@ class WxController extends Controller {
         }
         $arr = json_decode($data,true);
         var_dump($arr);
+    }
+
+    //创建微信菜单
+    public function menu(){
+        //微信接口调用都是通过curl方式 post/get
+        $accessToken = $this -> getAccessToken();
+        $url = "https://api.weixin.qq.com/cgi-bin/menu/create?access_token=$accessToken";
+        //菜单数组
+        $postArr = array(
+            'button'=>array(
+                array(
+                    'name'=>urlencode('菜单一'),
+                    'type'=>'click',
+                    'key'=>'item1'
+                ),
+                array(
+                    'name'=>urlencode('菜单二'),
+                    'sub_button'=>array(
+                        array(
+                            'name'=>urlencode('二级菜单一'),
+                            'type'=>'click',
+                            'key'=>'item21'
+                        ),
+                        array(
+                            'name'=>urlencode('二级菜单二'),
+                            'type'=>'click',
+                            'key'=>'item22'
+                        ),
+                        array(
+                            'name'=>urlencode('跳转百度'),
+                            'type'=>'view',
+                            'url'=>'http://www.baidu.com'
+                        )
+                    )
+                ),
+                array(
+                    'name'=>urlencode('腾讯主页'),
+                    'type'=>'view',
+                    'url'=>'http://www.qq.com'
+                )
+            )
+        );
+        //汉字转json时会被转码，所以事先对汉字转码，转json时不会被转码，最后再解码恢复汉字
+        $postJson = urldecode(json_encode($postArr));
+        $res = $this -> http_curl($url,'post','json',$postJson);
+        var_dump($res);
+
     }
 
 }
