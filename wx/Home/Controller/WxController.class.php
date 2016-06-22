@@ -38,7 +38,7 @@ class WxController extends Controller {
         $postArr = $GLOBALS["HTTP_RAW_POST_DATA"];
         //处理消息类型，设置回复类型和内容
         $this -> postObj = simplexml_load_string($postArr, 'SimpleXMLElement', LIBXML_NOCDATA);
-        if(strtolower($this->postObj->MsgType) == 'event'){
+        if(strtolower($this->postObj->MsgType) == 'event' && !$this->postObj->Event){ //排除菜单点击事件
             if(strtolower($this->postObj->Event) == 'subscribe'){
                 $content = "欢迎订阅boyyb的微信公众号！我将为你提供优质的服务。";
                 $this->sendText($content);
@@ -84,6 +84,15 @@ class WxController extends Controller {
             $content = "你说什么呀？我什么都听不到！！！";
             $this->sendText($content);
 
+        }elseif(strtolower($this->postObj->Event) == "click"){
+            //自定义菜单中的点击事件
+            $key = $this->postObj->EventKey;
+            switch($key){
+                case 'item1':$content = "你点击了菜单一";break;
+                case 'item21':$content = "你点击了二级菜单一";break;
+                case 'item22':$content = "你点击了二级菜单二";break;
+            }
+            $this -> sendText($content);
         }
 
     }
