@@ -1,0 +1,1 @@
+file_put_contents('./debug-tttttt.log', date('Y-m-d H:i:s ').' 节点信息' . "\r\n", FILE_APPEND);
